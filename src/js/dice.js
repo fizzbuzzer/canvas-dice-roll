@@ -107,5 +107,7 @@
     })
   }
 
-  initDice();
+  document.addEventListener('DOMContentLoaded', () => {
+    initDice();
+  });
 })()
